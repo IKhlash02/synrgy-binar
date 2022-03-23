@@ -2,7 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const cars = require("../data/cars.json");
+const cars = require("../data/cars.original.json");
 
 const ALLOWED_CAPACITY = [
   2,
@@ -26,7 +26,8 @@ function getRandomCapacity() {
 }
 
 function getCarImage(idx) {
-  return `./images/car${idx.toLocaleString('en-US', { minimumIntegerDigits: 2 })}`;
+  const imageFile = `car${(idx + 1).toLocaleString('en-US', { minimumIntegerDigits: 2 })}.jpg` 
+  return `./images/${imageFile}`;
 }
 
 function generateDescription(list) {
@@ -73,6 +74,7 @@ const ccars = cars.map((car, idx) => {
     ...car,
   }
 })
+
 const minCarsJSON = JSON.stringify(ccars);
 const carsJSON = JSON.stringify(ccars, null, 2);
 
