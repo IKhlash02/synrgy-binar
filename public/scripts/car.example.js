@@ -20,6 +20,7 @@ class Car {
     year,
     options,
     specs,
+    availableAt,
   }) {
     this.id = id;
     this.plate = plate;
@@ -35,6 +36,7 @@ class Car {
     this.year = year;
     this.options = options;
     this.specs = specs;
+    this.availableAt = availableAt;
   }
 
   render() {
@@ -43,6 +45,7 @@ class Car {
       <p>plate: <b>${this.plate}</b></p>
       <p>manufacture: <b>${this.manufacture}</b></p>
       <p>model: <b>${this.model}</b></p>
+      <p>available at: <b>${this.availableAt}</b></p>
       <img src="${this.image}" alt="${this.manufacture}" width="64px">
     `;
   }

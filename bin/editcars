@@ -71,6 +71,7 @@ const ccars = cars.map((car, idx) => {
     rentPerDay,
     capacity,
     description,
+    availableAt: new Date(),
     ...car,
   }
 })
