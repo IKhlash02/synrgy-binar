@@ -17,18 +17,24 @@
     <nav class="navbar navbar-expand-lg px-md-5 sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand logo" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <!-- align-items: center; justify-content: center; height: 36px; list-style: none; padding: 0; display: flex; -->
-          <ul class="navbar-nav ms-auto d-lg-flex align-items-lg-center justify-content-lg-center gap-lg-3">
-            <li class="nav-item"><a class="nav-link active" href="#2-our">Our Services</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#3-why">Why Us</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#4-testimonial">Testimonial</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#5-faq">FAQ</a></li>
-            <button class="btn-nav nav-item">Register</button>
-          </ul>
+
+        <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header pb-0">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">BCR</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body pt-0">
+            <ul class="navbar-nav ms-auto d-lg-flex align-items-lg-center justify-content-lg-center gap-lg-3">
+              <li class="nav-item"><a class="nav-link active" href="#2-our">Our Services</a></li>
+              <li class="nav-item"><a class="nav-link active" href="#3-why">Why Us</a></li>
+              <li class="nav-item"><a class="nav-link active" href="#4-testimonial">Testimonial</a></li>
+              <li class="nav-item"><a class="nav-link active" href="#5-faq">FAQ</a></li>
+              <button class="btn-nav nav-item">Register</button>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>

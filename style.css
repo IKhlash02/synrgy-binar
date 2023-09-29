@@ -215,7 +215,7 @@ nav a {
 }
 
 .cta-banner .rectangle {
-  padding: 64px 270px;
+  padding: 10% 10%;
   width: 81vw;
   height: 326px;
   flex-shrink: 0;
@@ -345,7 +345,7 @@ footer .copyright .rectangle {
 
   .cta-banner .rectangle {
     padding: 60px 60px;
-    width: 328px;
+    width: 95%;
     flex-shrink: 0;
     border-radius: 10px;
     background: var(--primary-dark-blue-04, #0d28a6);
