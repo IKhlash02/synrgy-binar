@@ -48,21 +48,8 @@ Contoh input:
     "available": true,
     "type": "Sedan",
     "year": 2022,
-    "options": [
-      "Cruise Control",
-      "Tinted Glass",
-      "Tinted Glass",
-      "Tinted Glass",
-      "AM/FM Stereo"
-    ],
-    "specs": [
-      "Brake assist",
-      "Leather-wrapped shift knob",
-      "Glove box lamp",
-      "Air conditioning w/in-cabin microfilter",
-      "Body color folding remote-controlled pwr mirrors",
-      "Dual-stage front airbags w/occupant classification system"
-    ]
+    "options": ["Cruise Control", "Tinted Glass", "Tinted Glass", "Tinted Glass", "AM/FM Stereo"],
+    "specs": ["Brake assist", "Leather-wrapped shift knob", "Glove box lamp", "Air conditioning w/in-cabin microfilter", "Body color folding remote-controlled pwr mirrors", "Dual-stage front airbags w/occupant classification system"]
   },
   {
     "id": "9ff03bbc-b18c-4ba7-8f3a-4c4b5c2f6c77",
@@ -73,20 +60,8 @@ Contoh input:
     "available": false,
     "type": "Convertible",
     "year": 2019,
-    "options": [
-      "Keyless Entry",
-      "Power Windows",
-      "MP3 (Single Disc)",
-      "CD (Multi Disc)",
-      "Navigation"
-    ],
-    "specs": [
-      "Rear passenger map pockets",
-      "Electrochromic rearview mirror",
-      "Dual chrome exhaust tips",
-      "Locking glove box",
-      "Pwr front vented disc/rear drum brakes"
-    ]
+    "options": ["Keyless Entry", "Power Windows", "MP3 (Single Disc)", "CD (Multi Disc)", "Navigation"],
+    "specs": ["Rear passenger map pockets", "Electrochromic rearview mirror", "Dual chrome exhaust tips", "Locking glove box", "Pwr front vented disc/rear drum brakes"]
   },
   {
     "id": "bf6b5c43-1377-4ae0-8908-310c64266f81",
@@ -97,15 +72,7 @@ Contoh input:
     "available": true,
     "type": "Sedan",
     "year": 2021,
-    "options": [
-      "Bucket Seats",
-      "Airbag: Passenger",
-      "Airbag: Driver",
-      "Power Seats",
-      "Airbag: Side",
-      "Antilock Brakes",
-      "CD (Multi Disc)"
-    ],
+    "options": ["Bucket Seats", "Airbag: Passenger", "Airbag: Driver", "Power Seats", "Airbag: Side", "Antilock Brakes", "CD (Multi Disc)"],
     "specs": [
       "Driver & front passenger map pockets",
       "Direct-type tire pressure monitor system",
@@ -139,21 +106,8 @@ Contoh output:
     "available": true,
     "type": "Sedan",
     "year": 2022,
-    "options": [
-      "Cruise Control",
-      "Tinted Glass",
-      "Tinted Glass",
-      "Tinted Glass",
-      "AM/FM Stereo"
-    ],
-    "specs": [
-      "Brake assist",
-      "Leather-wrapped shift knob",
-      "Glove box lamp",
-      "Air conditioning w/in-cabin microfilter",
-      "Body color folding remote-controlled pwr mirrors",
-      "Dual-stage front airbags w/occupant classification system"
-    ]
+    "options": ["Cruise Control", "Tinted Glass", "Tinted Glass", "Tinted Glass", "AM/FM Stereo"],
+    "specs": ["Brake assist", "Leather-wrapped shift knob", "Glove box lamp", "Air conditioning w/in-cabin microfilter", "Body color folding remote-controlled pwr mirrors", "Dual-stage front airbags w/occupant classification system"]
   },
   {
     "id": "bf6b5c43-1377-4ae0-8908-310c64266f81",
@@ -164,15 +118,7 @@ Contoh output:
     "available": true,
     "type": "Sedan",
     "year": 2021,
-    "options": [
-      "Bucket Seats",
-      "Airbag: Passenger",
-      "Airbag: Driver",
-      "Power Seats",
-      "Airbag: Side",
-      "Antilock Brakes",
-      "CD (Multi Disc)"
-    ],
+    "options": ["Bucket Seats", "Airbag: Passenger", "Airbag: Driver", "Power Seats", "Airbag: Side", "Antilock Brakes", "CD (Multi Disc)"],
     "specs": [
       "Driver & front passenger map pockets",
       "Direct-type tire pressure monitor system",
@@ -227,21 +173,8 @@ Contoh input:
     "available": true,
     "type": "Sedan",
     "year": 2022,
-    "options": [
-      "Cruise Control",
-      "Tinted Glass",
-      "Tinted Glass",
-      "Tinted Glass",
-      "AM/FM Stereo"
-    ],
-    "specs": [
-      "Brake assist",
-      "Leather-wrapped shift knob",
-      "Glove box lamp",
-      "Air conditioning w/in-cabin microfilter",
-      "Body color folding remote-controlled pwr mirrors",
-      "Dual-stage front airbags w/occupant classification system"
-    ]
+    "options": ["Cruise Control", "Tinted Glass", "Tinted Glass", "Tinted Glass", "AM/FM Stereo"],
+    "specs": ["Brake assist", "Leather-wrapped shift knob", "Glove box lamp", "Air conditioning w/in-cabin microfilter", "Body color folding remote-controlled pwr mirrors", "Dual-stage front airbags w/occupant classification system"]
   },
   {
     "id": "9ff03bbc-b18c-4ba7-8f3a-4c4b5c2f6c77",
@@ -252,20 +185,8 @@ Contoh input:
     "available": false,
     "type": "Convertible",
     "year": 2019,
-    "options": [
-      "Keyless Entry",
-      "Power Windows",
-      "MP3 (Single Disc)",
-      "CD (Multi Disc)",
-      "Navigation"
-    ],
-    "specs": [
-      "Rear passenger map pockets",
-      "Electrochromic rearview mirror",
-      "Dual chrome exhaust tips",
-      "Locking glove box",
-      "Pwr front vented disc/rear drum brakes"
-    ]
+    "options": ["Keyless Entry", "Power Windows", "MP3 (Single Disc)", "CD (Multi Disc)", "Navigation"],
+    "specs": ["Rear passenger map pockets", "Electrochromic rearview mirror", "Dual chrome exhaust tips", "Locking glove box", "Pwr front vented disc/rear drum brakes"]
   },
   {
     "id": "bf6b5c43-1377-4ae0-8908-310c64266f81",
@@ -276,15 +197,7 @@ Contoh input:
     "available": true,
     "type": "Sedan",
     "year": 2021,
-    "options": [
-      "Bucket Seats",
-      "Airbag: Passenger",
-      "Airbag: Driver",
-      "Power Seats",
-      "Airbag: Side",
-      "Antilock Brakes",
-      "CD (Multi Disc)"
-    ],
+    "options": ["Bucket Seats", "Airbag: Passenger", "Airbag: Driver", "Power Seats", "Airbag: Side", "Antilock Brakes", "CD (Multi Disc)"],
     "specs": [
       "Driver & front passenger map pockets",
       "Direct-type tire pressure monitor system",
@@ -318,20 +231,8 @@ Contoh output:
     "available": false,
     "type": "Convertible",
     "year": 2019,
-    "options": [
-      "Keyless Entry",
-      "Power Windows",
-      "MP3 (Single Disc)",
-      "CD (Multi Disc)",
-      "Navigation"
-    ],
-    "specs": [
-      "Rear passenger map pockets",
-      "Electrochromic rearview mirror",
-      "Dual chrome exhaust tips",
-      "Locking glove box",
-      "Pwr front vented disc/rear drum brakes"
-    ]
+    "options": ["Keyless Entry", "Power Windows", "MP3 (Single Disc)", "CD (Multi Disc)", "Navigation"],
+    "specs": ["Rear passenger map pockets", "Electrochromic rearview mirror", "Dual chrome exhaust tips", "Locking glove box", "Pwr front vented disc/rear drum brakes"]
   },
   {
     "id": "bf6b5c43-1377-4ae0-8908-310c64266f81",
@@ -342,15 +243,7 @@ Contoh output:
     "available": true,
     "type": "Sedan",
     "year": 2021,
-    "options": [
-      "Bucket Seats",
-      "Airbag: Passenger",
-      "Airbag: Driver",
-      "Power Seats",
-      "Airbag: Side",
-      "Antilock Brakes",
-      "CD (Multi Disc)"
-    ],
+    "options": ["Bucket Seats", "Airbag: Passenger", "Airbag: Driver", "Power Seats", "Airbag: Side", "Antilock Brakes", "CD (Multi Disc)"],
     "specs": [
       "Driver & front passenger map pockets",
       "Direct-type tire pressure monitor system",
@@ -371,21 +264,8 @@ Contoh output:
     "available": true,
     "type": "Sedan",
     "year": 2022,
-    "options": [
-      "Cruise Control",
-      "Tinted Glass",
-      "Tinted Glass",
-      "Tinted Glass",
-      "AM/FM Stereo"
-    ],
-    "specs": [
-      "Brake assist",
-      "Leather-wrapped shift knob",
-      "Glove box lamp",
-      "Air conditioning w/in-cabin microfilter",
-      "Body color folding remote-controlled pwr mirrors",
-      "Dual-stage front airbags w/occupant classification system"
-    ]
+    "options": ["Cruise Control", "Tinted Glass", "Tinted Glass", "Tinted Glass", "AM/FM Stereo"],
+    "specs": ["Brake assist", "Leather-wrapped shift knob", "Glove box lamp", "Air conditioning w/in-cabin microfilter", "Body color folding remote-controlled pwr mirrors", "Dual-stage front airbags w/occupant classification system"]
   }
 ]
 ```
@@ -430,21 +310,8 @@ Contoh input:
     "available": true,
     "type": "Sedan",
     "year": 2022,
-    "options": [
-      "Cruise Control",
-      "Tinted Glass",
-      "Tinted Glass",
-      "Tinted Glass",
-      "AM/FM Stereo"
-    ],
-    "specs": [
-      "Brake assist",
-      "Leather-wrapped shift knob",
-      "Glove box lamp",
-      "Air conditioning w/in-cabin microfilter",
-      "Body color folding remote-controlled pwr mirrors",
-      "Dual-stage front airbags w/occupant classification system"
-    ]
+    "options": ["Cruise Control", "Tinted Glass", "Tinted Glass", "Tinted Glass", "AM/FM Stereo"],
+    "specs": ["Brake assist", "Leather-wrapped shift knob", "Glove box lamp", "Air conditioning w/in-cabin microfilter", "Body color folding remote-controlled pwr mirrors", "Dual-stage front airbags w/occupant classification system"]
   },
   {
     "id": "9ff03bbc-b18c-4ba7-8f3a-4c4b5c2f6c77",
@@ -455,20 +322,8 @@ Contoh input:
     "available": false,
     "type": "Convertible",
     "year": 2019,
-    "options": [
-      "Keyless Entry",
-      "Power Windows",
-      "MP3 (Single Disc)",
-      "CD (Multi Disc)",
-      "Navigation"
-    ],
-    "specs": [
-      "Rear passenger map pockets",
-      "Electrochromic rearview mirror",
-      "Dual chrome exhaust tips",
-      "Locking glove box",
-      "Pwr front vented disc/rear drum brakes"
-    ]
+    "options": ["Keyless Entry", "Power Windows", "MP3 (Single Disc)", "CD (Multi Disc)", "Navigation"],
+    "specs": ["Rear passenger map pockets", "Electrochromic rearview mirror", "Dual chrome exhaust tips", "Locking glove box", "Pwr front vented disc/rear drum brakes"]
   },
   {
     "id": "bf6b5c43-1377-4ae0-8908-310c64266f81",
@@ -479,15 +334,7 @@ Contoh input:
     "available": true,
     "type": "Sedan",
     "year": 2021,
-    "options": [
-      "Bucket Seats",
-      "Airbag: Passenger",
-      "Airbag: Driver",
-      "Power Seats",
-      "Airbag: Side",
-      "Antilock Brakes",
-      "CD (Multi Disc)"
-    ],
+    "options": ["Bucket Seats", "Airbag: Passenger", "Airbag: Driver", "Power Seats", "Airbag: Side", "Antilock Brakes", "CD (Multi Disc)"],
     "specs": [
       "Driver & front passenger map pockets",
       "Direct-type tire pressure monitor system",
@@ -521,21 +368,8 @@ Contoh output:
     "available": true,
     "type": "Sedan",
     "year": 2022,
-    "options": [
-      "Cruise Control",
-      "Tinted Glass",
-      "Tinted Glass",
-      "Tinted Glass",
-      "AM/FM Stereo"
-    ],
-    "specs": [
-      "Brake assist",
-      "Leather-wrapped shift knob",
-      "Glove box lamp",
-      "Air conditioning w/in-cabin microfilter",
-      "Body color folding remote-controlled pwr mirrors",
-      "Dual-stage front airbags w/occupant classification system"
-    ]
+    "options": ["Cruise Control", "Tinted Glass", "Tinted Glass", "Tinted Glass", "AM/FM Stereo"],
+    "specs": ["Brake assist", "Leather-wrapped shift knob", "Glove box lamp", "Air conditioning w/in-cabin microfilter", "Body color folding remote-controlled pwr mirrors", "Dual-stage front airbags w/occupant classification system"]
   },
   {
     "id": "bf6b5c43-1377-4ae0-8908-310c64266f81",
@@ -546,15 +380,7 @@ Contoh output:
     "available": true,
     "type": "Sedan",
     "year": 2021,
-    "options": [
-      "Bucket Seats",
-      "Airbag: Passenger",
-      "Airbag: Driver",
-      "Power Seats",
-      "Airbag: Side",
-      "Antilock Brakes",
-      "CD (Multi Disc)"
-    ],
+    "options": ["Bucket Seats", "Airbag: Passenger", "Airbag: Driver", "Power Seats", "Airbag: Side", "Antilock Brakes", "CD (Multi Disc)"],
     "specs": [
       "Driver & front passenger map pockets",
       "Direct-type tire pressure monitor system",
@@ -575,24 +401,12 @@ Contoh output:
     "available": false,
     "type": "Convertible",
     "year": 2019,
-    "options": [
-      "Keyless Entry",
-      "Power Windows",
-      "MP3 (Single Disc)",
-      "CD (Multi Disc)",
-      "Navigation"
-    ],
-    "specs": [
-      "Rear passenger map pockets",
-      "Electrochromic rearview mirror",
-      "Dual chrome exhaust tips",
-      "Locking glove box",
-      "Pwr front vented disc/rear drum brakes"
-    ]
+    "options": ["Keyless Entry", "Power Windows", "MP3 (Single Disc)", "CD (Multi Disc)", "Navigation"],
+    "specs": ["Rear passenger map pockets", "Electrochromic rearview mirror", "Dual chrome exhaust tips", "Locking glove box", "Pwr front vented disc/rear drum brakes"]
   }
 ]
 ```
 
 # Tips
 
-Happy coding!
+# Happy coding!
