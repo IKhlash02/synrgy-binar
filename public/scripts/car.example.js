@@ -5,23 +5,7 @@ class Car {
     this.list = cars.map((i) => new this(i));
   }
 
-  constructor({
-    id,
-    plate,
-    manufacture,
-    model,
-    image,
-    rentPerDay,
-    capacity,
-    description,
-    transmission,
-    available,
-    type,
-    year,
-    options,
-    specs,
-    availableAt,
-  }) {
+  constructor({ id, plate, manufacture, model, image, rentPerDay, capacity, description, transmission, available, type, year, options, specs, availableAt }) {
     this.id = id;
     this.plate = plate;
     this.manufacture = manufacture;
@@ -41,12 +25,39 @@ class Car {
 
   render() {
     return `
-      <p>id: <b>${this.id}</b></p>
+    <div class="cars-search-result d-flex flex-column align-items-start">
+        <div class="cars-search-frame"">
+          <img src="${this.image}" alt="" />
+          <div class="d-flex flex-column align-self-stretch"  style="gap: 8px">
+            <p>${this.type}</p>
+            <h4>Rp ${this.rentPerDay} / hari</h4>
+            <p>${this.description}</p>
+          </div>
+          <div class="block-search d-flex">
+            <img src="images/user_search.svg" alt="" />
+            <p>${this.capacity} orang</p>
+          </div>
+          <div class="block-search d-flex">
+            <img src="images/setting_seach.svg" alt="" />
+            <p>${this.transmission}</p>
+          </div>
+          <div class="block-search d-flex">
+            <img src="images/calender_search.svg" alt="" />
+            <p>Tahun ${this.year}</p>
+          </div>
+        </div>
+        <button type="button" class="button-search-result">Pilih Mobil</button>
+      </div>
+      
+    `;
+  }
+}
+
+{
+  /* <p>id: <b>${this.id}</b></p>
       <p>plate: <b>${this.plate}</b></p>
       <p>manufacture: <b>${this.manufacture}</b></p>
       <p>model: <b>${this.model}</b></p>
       <p>available at: <b>${this.availableAt}</b></p>
-      <img src="${this.image}" alt="${this.manufacture}" width="64px">
-    `;
-  }
+      <img src="${this.image}" alt="${this.manufacture}" width="64px"></img> */
 }

@@ -19,6 +19,9 @@ const onReq = (req, res) => {
   } else if (url == "/cars") {
     res.writeHead(200);
     res.end(getHtml("car_search.html"));
+  } else if (url == "/example") {
+    res.writeHead(200);
+    res.end(getHtml("index.example.html"));
   } else if (url.match(".css$")) {
     readStaticFiles(url, res, "text/css", "UTF-8");
   } else if (url.match(".png$")) {
@@ -27,6 +30,8 @@ const onReq = (req, res) => {
     readStaticFiles(url, res, "image/svg+xml");
   } else if (url.match(".jpg$")) {
     readStaticFiles(url, res, "image/jpg");
+  } else if (url.match(".js$")) {
+    readStaticFiles(url, res, "text/js", "UTF-8");
   }
 };
 const server = http.createServer(onReq);
