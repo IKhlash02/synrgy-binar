@@ -43,7 +43,7 @@ class Component {
             <p>Tahun ${this.year}</p>
           </div>
         </div>
-        <button type="button" class="button-search-result">Pilih Mobil</button>
+        <button type="button" class="btn btn-success w-100 mt-auto">Pilih Mobil</button>
       </div>
       
     `;
