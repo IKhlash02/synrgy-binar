@@ -1,4 +1,4 @@
-class Car {
+class Car1 {
   static list = [];
 
   static init(cars) {

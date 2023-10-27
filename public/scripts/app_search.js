@@ -13,12 +13,21 @@ class App {
       const inputDate = document.getElementById("inputDate").value;
       const inputJemput = document.getElementById("inputJemput").value;
       const inputJumlahPenumpang = document.getElementById("inputJumlahPenumpang").value;
-      const carContainerElement = document.getElementById("cars-container");
+      console.log({
+        selectTipeDriver,
+        inputDate,
+        inputJemput,
+        inputJumlahPenumpang,
+      });
 
+      const carContainerElement = document.getElementById("cars-container");
+      carContainerElement.innerHTML = "";
       Car.list.forEach((car) => {
-        const node = document.createElement("div");
-        node.innerHTML = car.render();
-        carContainerElement.appendChild(node);
+        if (car.available) {
+          const node = document.createElement("div");
+          node.innerHTML = car.render();
+          carContainerElement.appendChild(node);
+        }
       });
     });
   }

@@ -11,5 +11,8 @@
   },
   "dependencies": {
     "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }

@@ -23,7 +23,7 @@ class App {
 
   async load() {
     const cars = await Binar.listCars();
-    Car.init(cars);
+    Car1.init(cars);
   }
 
   clear = () => {
