@@ -26,7 +26,7 @@ class Component {
         <div class="cars-search-frame"">
           <img src="${this.image}" alt="" />
           <div class="d-flex flex-column align-self-stretch"  style="gap: 8px">
-            <p>${this.type}</p>
+            <p>${this.type}/${this.model}</p>
             <h4>Rp ${this.rentPerDay} / hari</h4>
             <p>${this.description}</p>
           </div>
